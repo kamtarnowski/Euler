@@ -1,12 +1,14 @@
 result = []
 
-(1..999_999).select do |num|
-  if num < 10
-    result << num
-  elsif
-    num >= 10 && num == num.reverse
-    result << num
+999.downto(100) do |x|
+  999.downto(x) do |y|
+
+    num = x*y
+
+    if num.to_s == num.to_s.reverse
+      result << num
+    end
   end
 end
 
-puts result
+print result.max
