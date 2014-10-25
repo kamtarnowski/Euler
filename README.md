@@ -1,4 +1,4 @@
 Euler
 =====
 
-Working on Euler's project
+Working with Euler's project
